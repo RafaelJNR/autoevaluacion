@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autoevaluación | Mi Manual</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="quiz-wrapper">
+        <header>
+            <h1>AUTOEVALUACIÓN</h1>
+            <h1>Creación de páginas web con lenguaje de marcas</h1>
+            <h1>(UF1302)</h1>
+            <h2>UA 1: Herramientas de Edición WEB</h2>
+            <div class="progress-container">
+                <div id="progress-bar"></div>
+            </div>
+        </header>
+
+        <main id="quiz-content">
+            <div id="question-text" class="question-title">Cargando...</div>
+            <div id="options-container" class="options-grid"></div>
+            
+            <div id="feedback-box" class="hidden">
+                <p id="feedback-text"></p>
+                <button id="next-btn">Siguiente Pregunta</button>
+            </div>
+        </main>
+
+        <footer id="quiz-footer">
+            Pregunta <span id="current-q-num">1</span> de <span id="total-q-num">0</span>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
